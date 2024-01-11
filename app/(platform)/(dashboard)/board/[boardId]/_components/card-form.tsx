@@ -91,3 +91,5 @@ export const CardForm = forwardRef<HTMLTextAreaElement, CardFormProps>(({ listId
         </div>
     )
 })
+
+CardForm.displayName = 'CardForm'
